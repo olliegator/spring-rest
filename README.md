@@ -14,14 +14,6 @@ docker run --rm -p 8080:8080 --name spring-rest spring-rest
 
 ```
 
-## Docker Publish
-
-```
-docker login
-docker tag spring-rest olliegator/spring-rest
-docker push olliegator/spring-rest:latest
-```
-
 ## Docker Run
 
 ```
